@@ -1,0 +1,41 @@
+Task for SQL DML session
+Load this dataset in your database and perform below given tasks.
+
+Data Set - https://docs.google.com/spreadsheets/d/e/2PACX-1vRa1wWwXmzxEvqITxj4OQTeLywlGTTsOTbhSRqKj2lPuGefjlci-DQhgLBPpgWXe8AAUu2WUBqY59X1/pub?gid=1030172542&single=true&output=csv
+
+Look for data description
+
+Kaggle - https://www.kaggle.com/datasets/thedevastator/insurance-claim-analysis-demographic-and-health?select=insurance_data.csv
+
+
+
+
+
+Perform the following queries
+
+
+Show records of 'male' patient from 'southwest' region.
+
+Show all records having bmi in range 30 to 45 both inclusive.
+
+Show minimum and maximum bloodpressure of diabetic patient who smokes. Make column names as MinBP and MaxBP respectively.
+
+Find no of unique patients who are not from southwest region.
+
+Total claim amount from male smoker.
+
+Select all records of south region.
+
+No of patient having normal blood pressure. Normal range[90-120]
+
+No of pateint belo 17 years of age having normal blood pressure as per below formula -
+
+BP normal range = 80+(age in years × 2) to 100 + (age in years × 2)
+
+Note: Formula taken just for practice, don't take in real sense.
+
+What is the average claim amount for non-smoking female patients who are diabetic?
+
+Write a SQL query to update the claim amount for the patient with PatientID = 1234 to 5000.
+
+Write a SQL query to delete all records for patients who are smokers and have no children.
